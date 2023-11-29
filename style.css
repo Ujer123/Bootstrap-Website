@@ -32,13 +32,14 @@
 
 .b1{
     
-    color: rgb(255, 255, 255);
-    background-color: green;
+    color: green;
+    background-color: rgb(255, 255, 255);
     border-radius: 30px;
     border: none;
     padding: auto;
     width: 200px;
     height: 40px;
+    border: 2px solid green;
 }
 
 .h2{
@@ -65,10 +66,6 @@
     padding-top: 100px;
 }
 
-.uj{
-    
-    
-}
 
 .p2{
     text-align: start;
@@ -164,6 +161,20 @@
 .top{
     background-color: green;
     justify-content: space-between;
+}
+
+.last{
+    color: rgb(255, 255, 255);
+    background-color: green;
+    border: none;
+    padding: auto;
+    border: 2px solid green;
+}
+
+.last:hover{
+    transition: .5s ease;
+    transform: scale(1.01);
+    
 }
 
 
