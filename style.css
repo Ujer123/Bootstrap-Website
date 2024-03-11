@@ -30,8 +30,7 @@ p1{
 }
 
 
-.button-style{
-    
+.button-style{  
     color: green;
     background-color: rgb(255, 255, 255);
     border-radius: 30px;
@@ -183,7 +182,7 @@ h3{
 
 
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,700);
-.testimonial9 {
+/*.testimonial9 {
   font-family: "Montserrat", sans-serif;
 	color: #8d97ad;
   font-weight: 300;
@@ -225,7 +224,7 @@ h3{
 
 .testimonial9 .bg-info {
     background-color: #188ef4 !important;
-}
+}*/
 
 .testimonial9 .customer-thumb img {
   width: 60px;
@@ -243,6 +242,12 @@ h3{
     border: 2px solid green;
 }
 
-@media only screen and (max-width: 768px) {
-    
+@media only screen and (max-width: 600px) {
+    .two-mobiles .mobile-2{
+        max-width: 90% !important;
+    }
+
+    .mobile-1{
+        margin-top: -112%;
+    }
 }
